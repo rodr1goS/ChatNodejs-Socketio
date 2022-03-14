@@ -14,7 +14,7 @@
 
 ##
 
-### What I added in chat:
+### What's in the chat?
 
 - [x] I'ts possible send messages.
 - [x] At the bottom of the chat is shown the user who is typing.
