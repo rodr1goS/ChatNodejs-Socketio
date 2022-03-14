@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#9f80ff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat Socketio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="form" action="">
+        <div class="chat-container">
+            <div class="header">
+                <input type="text" placeholder="username" id="username">
+                <p id="online-users">&#9679; 0</p>
+            </div>
+            <ul id="messages"></ul>
+            <p id="typing"></p>
+            <div class="container-message">
+                <input type="text" placeholder="message" id="input-message">
+                <button type="submit">send</button>
+            </div>
+        </div>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
