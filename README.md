@@ -8,7 +8,7 @@
 
 - Run `npm i` to install the packages.
 
-- Start chat with `node index.js`
+- Start chat with `npm start`
 
 - And then open the url `http://localhost:4444/` to access the chat.
 
